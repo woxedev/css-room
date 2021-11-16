@@ -19,7 +19,9 @@ body {
     justify-content: center;
     align-items: center;
 }
-
+#app {
+    transform: translateZ(1000px);
+}
 .room {
     position: relative;
     transform: perspective(1000px) rotateY(45deg) rotateZ(var(--rotation)) rotateX(var(--rotation)) translateX(300px) translateZ(-300px);
